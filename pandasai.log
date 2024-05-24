@@ -1,0 +1,776 @@
+2024-05-25 00:57:55 [INFO] Question: what are the available games
+
+2024-05-25 00:57:55 [INFO] Running PandasAI with local LLM...
+2024-05-25 00:57:55 [INFO] Prompt ID: 1a11e13d-5e02-474a-9cc8-3dd1051717f7
+2024-05-25 00:57:55 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-25 00:57:55 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-25 00:57:55 [INFO] Executing Step 1: CacheLookup
+2024-05-25 00:57:55 [INFO] Executing Step 2: PromptGeneration
+2024-05-25 00:57:55 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+1169,Advance Wars,"May 05, 2005","['Microsoft', 'Konami Computer Entertainment Japan']",3.5,610,906,['Platform'],"He may wear a Rooster Suit, but no one calls him Chicken!
+             
+
+              Billy Hatcher must use the powers of a legendary suit to conquer an evil King who seeks to rule with an everlasting night. Slightly mischievous, yet always cool, only Billy can return the light to the land!","[""It's weird to think that Resident Evil 4 would work, let alone be considered a competing best entry game in the franchise along with REmake. It practically reinvents everything the franchise was known for, removing all signs of survival horror for a more action focused game. Puzzles are few and far between. Linearity is more pronounced now, with things like weapons no longer being found on the map, but bought from a merchant, along with weapon upgrades. The game even lacks zombies of all things, at least in the usual sense. It even adds elements that people just dislike about gaming in general - half the game is essentially an escort mission, and quick time events are everywhere."", ""Played for the first time using the HD project. Looked amazing despite some hiccups here and there. Even though this is one of my favorite games and I have played through it dozens of times over the years, it definitely shows it's age in some areas. Going back to this from the Remake demo really hammers home how bad the AI is in this game and the QTEs get old, especially on the Island. Speaking of, by the time I got here I was ready to be done. Outside of the Regenerators the Island just isn't that interesting compared to what came before and it's repetitive to boot."", 'i guess i technically played this version but yeah this shit is still absolutely sick. one of our best games, cautiously excited for the remake', ""Depois de ter terminado no PS2, Wii, PS3 e Xbox One, finalmente joguei a Ultimate HD Edition (com o mod HD Project que faz o título da versão ter real sentido) e ei, esse jogo ainda é muito, muito bom. Sim, as QTE's com morte instantânea são um produto do seu tempo, e o terço final se estende um tanto mais que o necessário, mas eu sempre fico impressionado com o tanto de ideias que foram encaixadas na jornada de Leon e Ashley."", 'Easily one of the most fun games I have ever played.', ""hot damn what a beautiful game it is, love it to death. graphics, visuals, and gunplay to this day hold up great, and controls are great with the mouse and keyboard don't think they are any good on the controller(didn't try), the story is also good, an amazing freaking game overall, solid 11/10 point extra for Leon cheesy one liners.""]",2.7K,157,801,288
+4,Star Wars: Battlefront,"May 11, 2020","['THQ', ""YUKE'S Co., Ltd.""]",4.2,552,728,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']","The world is in ruins. Only a remnant of mankind remains, hunted to near extinction by horrors from another world. As one of the few survivors left, you will venture into portals to fantastic realms to gather the resources and firepower needed to fight back and retake what was lost.
+             
+
+              Remnant: From the Ashes is a third-person survival-action game set in a post-apocalyptic world overrun by mythical creatures. The game provides players and up to three of their friends with a unique, customizable gameplay experience filled with intense shooting and melee combat, gear and weapon crafting, character progression and dynamically-generated levels that offer an infinite number of ways to explore and take on deadly monsters and epic bosses.","['O primeiro jogo da franquia do Fallout a ser 3D e é bastante divertido. A única coisa que acaba sendo frustrante é os crashes e bugs constantes, mas por ser bastante inovador na época, dá pra perdoar um pouquinho', 'Here we are after the base game + some good amount of sidequests + all DLCs.', 'Fallout: New Vegas, but not as good.', 'Um motivo para sorrir', 'New Vegas is better', 'I understand that it was first person fallout and pretty old to todays standards and its my first fallout game. its pretty creative and a unique game. (now on to new vegas)']",4.8K,874,637,155
+782,Fallout: New Vegas,"Dec 10, 2009",,,229,689,"['Adventure', 'Indie', 'Puzzle', 'RPG']",,"['Mario Party 2 is a perfect sequel. It improves upon everything first attemped in the first Mario Party. It lost a lot of its bullshit factor on the way, but ends up being a lot more consistently fun as a result.', 'a little bit better my hand is not fucking gone this time', ""it's mario party. but again. make sure you bring some other people with you if you want to tackle all this game has to offer; theres no dedicated single player campaign, and doing regular mario party rounds by yourself is really sad and lonely. other than that, this is pretty much mario party 1 again, except with a lot less chance time and palm blisters. If you like physical pain, I think mario party 1 is a better pick than this, but honestly both this and the first are equally worth checking out."", 'RNG bullshit', 'Uma grande evolução em relação ao primeiro jogo, além de ter ótimos minigames e tabuleiros temáticos que mudam a roupa dos personagens!', 'improvment, no holes in my hand']",25K,141,351,537
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ what are the available games
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-25 00:57:55 [INFO] Executing Step 3: CodeGenerator
+2024-05-25 00:59:14 [INFO] Question: what are the available games
+
+2024-05-25 00:59:14 [INFO] Running PandasAI with local LLM...
+2024-05-25 00:59:14 [INFO] Prompt ID: 3b8767be-f3f5-46e5-8e89-5baa957ce4ab
+2024-05-25 00:59:14 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-25 00:59:14 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-25 00:59:14 [INFO] Executing Step 1: CacheLookup
+2024-05-25 00:59:14 [INFO] Executing Step 2: PromptGeneration
+2024-05-25 00:59:14 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+476,Superman: The New Superman Adventures,"Feb 28, 2014","['Inti Creates', 'Capcom']",1.2,3.9K,331,"['Card & Board Game', 'Indie', 'Puzzle', 'RPG', 'Simulator', 'Strategy', 'Turn Based Strategy']",,"['An excellent time, The story is amazing, the worlds are fantastic to go through, and the feeling of growth is fantastic having the perfect pace imo. 100% completion of this game is this experience honestly shines (Ultima weapon being a highlight for me)', 'I don’t understand why this game exists, but the ost slaps and cloud is in it so it’s good', 'Okay, it\'s KH, it\'s confusing but this is the most grounded it\'ll get. Watching Cloud Strife interact with Donald Duck is insane enough. This game has some [Goofy] stuff but I think it\'s part of the charm. The gameplay is pretty fun, and while later entries improve, 3D rpg combat is satisfying. The story takes a nice turn on the ""chosen one"" trope, and while there are plenty of cliches and broken lines, they\'re still kids.', 'cringe pra kct', 'Gaming tbh', ""Played PlayStation 4 Final Mix Version. Was pleasantly surprised that this has not aged as badly. The gameplay isn't as smooth as some of the later entries, but it's still solid. Unlike some of the other games, this has a relativity simple story that help eases new people to the series.\n                     \n                     A good game that does not need a remake.""]",308,272,718,786
+345,Scribblenauts,"Feb 13, 2018",,4.6,635,88,"['Adventure', 'Platform', 'Simulator']","Discover the origins of Shulk as he and his companions clash against a seemingly-unstoppable mechanical menace. Wield a future-seeing blade, chain together attacks, and carefully position your party members in strategic, real-time combat as you journey across a massive world.","['Nota disso aqui na dlc pq eu sou burro', 'While the gameplay can be a bit stiff (I think the plateforming is really not the best aspect of the game, there are a few collisions problem) I still enjoyed playing this game enough to do multiple playthroughs.\n                     \n                     But more than gameplay, what stood out for me is the lore and its inspirations, the art direction, and the beautiful pixel art ! (I also really like discovering every new gore finishing move animation haha)\n                     \n                     Really curious to see the sequel !', 'que lore foda, gameplay, bonitinho.. mas namoral quase chorei de raiva por causa dos 2 ultimos boss do jogokkkkkkkkk que desgraça', 'gg', ""The bosses go extremely hard it's unreal"", 'Quando criatividade e estilo conseguem simplesmente carregar um jogo. A arte supera qualquer orçamento, Blasphemous traz uma visão perturbadora, dantesca, de um mundo apocalíptico e visceral, governado por um deus misterioso e tortuoso, em infindável punição dos pecadores que o habitam.']",1K,328,737,35
+995,Bully: Scholarship Edition,"Jun 06, 2023","['Sega', 'Taito Corporation']",,402,173,['Fighting'],"The game from 2010 has been remastered for the PS4 with one of Yakuza 4's main protagonists, Masayoshi Tanimura, being recast and getting a visual makeover.
+             
+
+              Kamuro Chou, the entertainment district is about to be bloodbath again. This time, we have four rising dragons. Each of the protagonists has a different fighting style and each of them has to go through sets of impossible trials to find their destiny. The line between game and reality is further blurred, earlier, in 2009, Sega hosts a beauty pageant, and the seven winners became models of their game avatars. Some of them are bar girls, some are hostesses, visit the ""play spots"" with them, ask them to date in the spas and sing karaoke with them. The Rising Dragon is looking for a successor, will you be it?","['Rage inducing, mechanical behemoth.', ""(Played before 2023)\n                     \n                     Honestly I don't remember much from this game other than beating it and a few other things. Never got super frustrated, but it had fun levels and a cute artstyle. Definitely not my type of gameplay though."", 'Horible.\n                     \n                     0', 'Precision platforming perfection', ""Mid-2000's stoner humor packed into an artificially difficult platformer : apparently that's what the indie world wanted back in 2010 because Super Meat Boy exploded in popularity."", 'I was kinda disapoiinted with the difficulty as I finished the full game on my first session with it. But the game was fun and addicting enough to make me want to play the full story in one sitting so that shows how much fun the game really is.']",183,669,333,991
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ what are the available games
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-25 00:59:14 [INFO] Executing Step 3: CodeGenerator
+2024-05-25 01:00:16 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 01:00:16 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+1169,Advance Wars,"May 05, 2005","['Microsoft', 'Konami Computer Entertainment Japan']",3.5,610,906,['Platform'],"He may wear a Rooster Suit, but no one calls him Chicken!
+             
+
+              Billy Hatcher must use the powers of a legendary suit to conquer an evil King who seeks to rule with an everlasting night. Slightly mischievous, yet always cool, only Billy can return the light to the land!","[""It's weird to think that Resident Evil 4 would work, let alone be considered a competing best entry game in the franchise along with REmake. It practically reinvents everything the franchise was known for, removing all signs of survival horror for a more action focused game. Puzzles are few and far between. Linearity is more pronounced now, with things like weapons no longer being found on the map, but bought from a merchant, along with weapon upgrades. The game even lacks zombies of all things, at least in the usual sense. It even adds elements that people just dislike about gaming in general - half the game is essentially an escort mission, and quick time events are everywhere."", ""Played for the first time using the HD project. Looked amazing despite some hiccups here and there. Even though this is one of my favorite games and I have played through it dozens of times over the years, it definitely shows it's age in some areas. Going back to this from the Remake demo really hammers home how bad the AI is in this game and the QTEs get old, especially on the Island. Speaking of, by the time I got here I was ready to be done. Outside of the Regenerators the Island just isn't that interesting compared to what came before and it's repetitive to boot."", 'i guess i technically played this version but yeah this shit is still absolutely sick. one of our best games, cautiously excited for the remake', ""Depois de ter terminado no PS2, Wii, PS3 e Xbox One, finalmente joguei a Ultimate HD Edition (com o mod HD Project que faz o título da versão ter real sentido) e ei, esse jogo ainda é muito, muito bom. Sim, as QTE's com morte instantânea são um produto do seu tempo, e o terço final se estende um tanto mais que o necessário, mas eu sempre fico impressionado com o tanto de ideias que foram encaixadas na jornada de Leon e Ashley."", 'Easily one of the most fun games I have ever played.', ""hot damn what a beautiful game it is, love it to death. graphics, visuals, and gunplay to this day hold up great, and controls are great with the mouse and keyboard don't think they are any good on the controller(didn't try), the story is also good, an amazing freaking game overall, solid 11/10 point extra for Leon cheesy one liners.""]",2.7K,157,801,288
+4,Star Wars: Battlefront,"May 11, 2020","['THQ', ""YUKE'S Co., Ltd.""]",4.2,552,728,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']","The world is in ruins. Only a remnant of mankind remains, hunted to near extinction by horrors from another world. As one of the few survivors left, you will venture into portals to fantastic realms to gather the resources and firepower needed to fight back and retake what was lost.
+             
+
+              Remnant: From the Ashes is a third-person survival-action game set in a post-apocalyptic world overrun by mythical creatures. The game provides players and up to three of their friends with a unique, customizable gameplay experience filled with intense shooting and melee combat, gear and weapon crafting, character progression and dynamically-generated levels that offer an infinite number of ways to explore and take on deadly monsters and epic bosses.","['O primeiro jogo da franquia do Fallout a ser 3D e é bastante divertido. A única coisa que acaba sendo frustrante é os crashes e bugs constantes, mas por ser bastante inovador na época, dá pra perdoar um pouquinho', 'Here we are after the base game + some good amount of sidequests + all DLCs.', 'Fallout: New Vegas, but not as good.', 'Um motivo para sorrir', 'New Vegas is better', 'I understand that it was first person fallout and pretty old to todays standards and its my first fallout game. its pretty creative and a unique game. (now on to new vegas)']",4.8K,874,637,155
+782,Fallout: New Vegas,"Dec 10, 2009",,,229,689,"['Adventure', 'Indie', 'Puzzle', 'RPG']",,"['Mario Party 2 is a perfect sequel. It improves upon everything first attemped in the first Mario Party. It lost a lot of its bullshit factor on the way, but ends up being a lot more consistently fun as a result.', 'a little bit better my hand is not fucking gone this time', ""it's mario party. but again. make sure you bring some other people with you if you want to tackle all this game has to offer; theres no dedicated single player campaign, and doing regular mario party rounds by yourself is really sad and lonely. other than that, this is pretty much mario party 1 again, except with a lot less chance time and palm blisters. If you like physical pain, I think mario party 1 is a better pick than this, but honestly both this and the first are equally worth checking out."", 'RNG bullshit', 'Uma grande evolução em relação ao primeiro jogo, além de ter ótimos minigames e tabuleiros temáticos que mudam a roupa dos personagens!', 'improvment, no holes in my hand']",25K,141,351,537
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ what are the available games
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-25 01:00:16 [INFO] Code generated:
+            ```
+            Python
+# Import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load data into a dataframe
+dfs = [pd.DataFrame({
+    "id": [1169],
+    "Title": ["Advance Wars"],
+    "Release Date": ["May 05, 2005"],
+    "Team": [["Microsoft", "Konami Computer Entertainment Japan"]],
+    "Rating": [3.5],
+    "Times Listed": [610],
+    "Number of Reviews": [906],
+    "Genres": ["Platform"],
+    "Summary": ["He may wear a Rooster Suit, but no one calls him Chicken!"],
+    "Reviews": [["It's weird to think that Resident Evil 4 would work, let alone be considered a competing best entry game in the franchise along with REmake. It practically reinvents everything the franchise was known for, removing all signs of survival horror for a more action focused game."],],
+})]
+
+# Function to generate a bar chart
+def plot_bar_chart(data):
+    plt.barh(range(len(data)), data['Rating'])
+    plt.xlabel('Ratings')
+    plt.ylabel('Games')
+    plt.title('Available Games and Their Ratings')
+    plt.savefig('available_games_ratings.png')
+
+# Query available games
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+
+# Generate a bar chart
+plot_bar_chart(df)
+
+# Declare result variable
+result = {
+    "type": "dataframe",
+    "value": pd.DataFrame({
+        "id": [1169],
+        "Title": ["Advance Wars"],
+        "Release Date": ["May 05, 2005"],
+        "Team": [["Microsoft", "Konami Computer Entertainment Japan"]],
+        "Rating": [3.5],
+        "Times Listed": [610],
+        "Number of Reviews": [906],
+    })
+}
+
+print(f"Result: {result}")
+            ```
+            
+2024-05-25 01:00:16 [INFO] Executing Step 4: CachePopulation
+2024-05-25 01:00:16 [INFO] Executing Step 5: CodeCleaning
+2024-05-25 01:00:16 [INFO] Saving charts to C:\Users\dhanu\Downloads\game_rec-main\exports\charts\temp_chart.png
+2024-05-25 01:00:16 [INFO] 
+Code running:
+```
+Python
+
+
+def plot_bar_chart(data):
+    plt.barh(range(len(data)), data['Rating'])
+    plt.xlabel('Ratings')
+    plt.ylabel('Games')
+    plt.title('Available Games and Their Ratings')
+    plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+
+
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+plot_bar_chart(df)
+result = {'type': 'dataframe', 'value': pd.DataFrame({'id': [1169], 'Title': ['Advance Wars'], 'Release Date': ['May 05, 2005'], 'Team': [['Microsoft', 'Konami Computer Entertainment Japan']], 'Rating': [3.5], 'Times Listed': [610], 'Number of Reviews': [906]})}
+print(f'Result: {result}')
+        ```
+2024-05-25 01:00:16 [INFO] Executing Step 6: CodeExecution
+2024-05-25 01:00:16 [ERROR] Failed with error: Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+2024-05-25 01:00:16 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-05-25 01:00:16 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-05-25 01:00:16 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-05-25 01:00:16 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+1169,Advance Wars,"May 05, 2005","['Microsoft', 'Konami Computer Entertainment Japan']",3.5,610,906,['Platform'],"He may wear a Rooster Suit, but no one calls him Chicken!
+             
+
+              Billy Hatcher must use the powers of a legendary suit to conquer an evil King who seeks to rule with an everlasting night. Slightly mischievous, yet always cool, only Billy can return the light to the land!","[""It's weird to think that Resident Evil 4 would work, let alone be considered a competing best entry game in the franchise along with REmake. It practically reinvents everything the franchise was known for, removing all signs of survival horror for a more action focused game. Puzzles are few and far between. Linearity is more pronounced now, with things like weapons no longer being found on the map, but bought from a merchant, along with weapon upgrades. The game even lacks zombies of all things, at least in the usual sense. It even adds elements that people just dislike about gaming in general - half the game is essentially an escort mission, and quick time events are everywhere."", ""Played for the first time using the HD project. Looked amazing despite some hiccups here and there. Even though this is one of my favorite games and I have played through it dozens of times over the years, it definitely shows it's age in some areas. Going back to this from the Remake demo really hammers home how bad the AI is in this game and the QTEs get old, especially on the Island. Speaking of, by the time I got here I was ready to be done. Outside of the Regenerators the Island just isn't that interesting compared to what came before and it's repetitive to boot."", 'i guess i technically played this version but yeah this shit is still absolutely sick. one of our best games, cautiously excited for the remake', ""Depois de ter terminado no PS2, Wii, PS3 e Xbox One, finalmente joguei a Ultimate HD Edition (com o mod HD Project que faz o título da versão ter real sentido) e ei, esse jogo ainda é muito, muito bom. Sim, as QTE's com morte instantânea são um produto do seu tempo, e o terço final se estende um tanto mais que o necessário, mas eu sempre fico impressionado com o tanto de ideias que foram encaixadas na jornada de Leon e Ashley."", 'Easily one of the most fun games I have ever played.', ""hot damn what a beautiful game it is, love it to death. graphics, visuals, and gunplay to this day hold up great, and controls are great with the mouse and keyboard don't think they are any good on the controller(didn't try), the story is also good, an amazing freaking game overall, solid 11/10 point extra for Leon cheesy one liners.""]",2.7K,157,801,288
+4,Star Wars: Battlefront,"May 11, 2020","['THQ', ""YUKE'S Co., Ltd.""]",4.2,552,728,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']","The world is in ruins. Only a remnant of mankind remains, hunted to near extinction by horrors from another world. As one of the few survivors left, you will venture into portals to fantastic realms to gather the resources and firepower needed to fight back and retake what was lost.
+             
+
+              Remnant: From the Ashes is a third-person survival-action game set in a post-apocalyptic world overrun by mythical creatures. The game provides players and up to three of their friends with a unique, customizable gameplay experience filled with intense shooting and melee combat, gear and weapon crafting, character progression and dynamically-generated levels that offer an infinite number of ways to explore and take on deadly monsters and epic bosses.","['O primeiro jogo da franquia do Fallout a ser 3D e é bastante divertido. A única coisa que acaba sendo frustrante é os crashes e bugs constantes, mas por ser bastante inovador na época, dá pra perdoar um pouquinho', 'Here we are after the base game + some good amount of sidequests + all DLCs.', 'Fallout: New Vegas, but not as good.', 'Um motivo para sorrir', 'New Vegas is better', 'I understand that it was first person fallout and pretty old to todays standards and its my first fallout game. its pretty creative and a unique game. (now on to new vegas)']",4.8K,874,637,155
+782,Fallout: New Vegas,"Dec 10, 2009",,,229,689,"['Adventure', 'Indie', 'Puzzle', 'RPG']",,"['Mario Party 2 is a perfect sequel. It improves upon everything first attemped in the first Mario Party. It lost a lot of its bullshit factor on the way, but ends up being a lot more consistently fun as a result.', 'a little bit better my hand is not fucking gone this time', ""it's mario party. but again. make sure you bring some other people with you if you want to tackle all this game has to offer; theres no dedicated single player campaign, and doing regular mario party rounds by yourself is really sad and lonely. other than that, this is pretty much mario party 1 again, except with a lot less chance time and palm blisters. If you like physical pain, I think mario party 1 is a better pick than this, but honestly both this and the first are equally worth checking out."", 'RNG bullshit', 'Uma grande evolução em relação ao primeiro jogo, além de ter ótimos minigames e tabuleiros temáticos que mudam a roupa dos personagens!', 'improvment, no holes in my hand']",25K,141,351,537
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ what are the available games
+
+
+You generated this python code:
+Python
+
+
+def plot_bar_chart(data):
+    plt.barh(range(len(data)), data['Rating'])
+    plt.xlabel('Ratings')
+    plt.ylabel('Games')
+    plt.title('Available Games and Their Ratings')
+    plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+
+
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+plot_bar_chart(df)
+result = {'type': 'dataframe', 'value': pd.DataFrame({'id': [1169], 'Title': ['Advance Wars'], 'Release Date': ['May 05, 2005'], 'Team': [['Microsoft', 'Konami Computer Entertainment Japan']], 'Rating': [3.5], 'Times Listed': [610], 'Number of Reviews': [906]})}
+print(f'Result: {result}')
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-05-25 01:00:16 [INFO] Executing Step 1: CodeGenerator
+2024-05-25 01:00:22 [INFO] Question: what are the available games
+
+2024-05-25 01:00:22 [INFO] Running PandasAI with local LLM...
+2024-05-25 01:00:22 [INFO] Prompt ID: f6b0904f-e330-4ee3-a613-9bf387ef924b
+2024-05-25 01:00:22 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-25 01:00:22 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-25 01:00:22 [INFO] Executing Step 1: CacheLookup
+2024-05-25 01:00:22 [INFO] Using cached response
+2024-05-25 01:00:22 [INFO] Executing Step 2: PromptGeneration
+2024-05-25 01:00:22 [INFO] Executing Step 2: Skipping...
+2024-05-25 01:00:22 [INFO] Executing Step 3: CodeGenerator
+2024-05-25 01:00:22 [INFO] Executing Step 3: Skipping...
+2024-05-25 01:00:22 [INFO] Executing Step 4: CachePopulation
+2024-05-25 01:00:22 [INFO] Executing Step 4: Skipping...
+2024-05-25 01:00:22 [INFO] Executing Step 5: CodeCleaning
+2024-05-25 01:00:22 [INFO] Saving charts to C:\Users\dhanu\Downloads\game_rec-main\exports\charts\temp_chart.png
+2024-05-25 01:00:22 [INFO] 
+Code running:
+```
+Python
+
+
+def plot_bar_chart(data):
+    plt.barh(range(len(data)), data['Rating'])
+    plt.xlabel('Ratings')
+    plt.ylabel('Games')
+    plt.title('Available Games and Their Ratings')
+    plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+
+
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+plot_bar_chart(df)
+result = {'type': 'dataframe', 'value': pd.DataFrame({'id': [1169], 'Title': ['Advance Wars'], 'Release Date': ['May 05, 2005'], 'Team': [['Microsoft', 'Konami Computer Entertainment Japan']], 'Rating': [3.5], 'Times Listed': [610], 'Number of Reviews': [906]})}
+print(f'Result: {result}')
+        ```
+2024-05-25 01:00:22 [INFO] Executing Step 6: CodeExecution
+2024-05-25 01:00:22 [ERROR] Failed with error: Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+2024-05-25 01:00:22 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-05-25 01:00:22 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-05-25 01:00:22 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-05-25 01:00:22 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+607,Castlevania III: Dracula's Curse,"Apr 30, 2014","['Gaijin Games', 'Aksys Games']",1.6,140,653,"['Adventure', 'Arcade', 'Fighting', 'Indie']","The Legend of Zelda: Breath of the Wild is the first 3D open-world game in the Zelda series. Link can travel anywhere and be equipped with weapons and armor found throughout the world to grant him various bonuses. Unlike many games in the series, Breath of the Wild does not impose a specific order in which quests or dungeons must be completed. While the game still has environmental obstacles such as weather effects, inhospitable lands, or powerful enemies, many of them can be overcome using the right method. A lot of critics ranked Breath of the Wild as one of the best video games of all time.","['Great but I hate the cheap one hit kill QTEs. Very pronounced lack of enemy variety that gets amended in later titles in the series', ""Beat'em all at its best, with weird and frankly off putting enemy design."", 'I know this is really good but every time I see a combo list in a video game my head fills with static', 'at this point i lost the count of how many times i played this game', 'eu te amo hideki kamiya', 'https://www.amazon.com/gp/product/B08RMCZJ9K?psc=1']",7K,600,132,138
+547,Metroid Fusion,"Nov 09, 2022","['Namco Bandai Games', 'Monolith Soft']",,414,2.1K,"['Adventure', 'Indie', 'Puzzle', 'Shooter']",,"[""I haven't played this game since I was a kid, but I loved it when I was a kid, and I remember playing the demo on the school bus and challenging my pokemon bus friends to play it. Good times, good times. Would recommend, especially to fans of the series."", 'Bom', 'Les bons bail avec le frÃ©rot', 'posiblemente de los mejores si no el mejor juego graficamente en la consola pero entre que la historia no tiene ningun sentido y que el gameplay se va a pique luego de como 2 horas ðŸ˜¬ðŸ˜¬ðŸ˜¬ðŸ˜¬ðŸ˜¬', 'cool ambience, no puzzles tho', 'Capcom\n                     \n                     Jill Valentine']",5.9K,866,252,188
+1125,Red Dead Redemption,"Sep 02, 1994",,2.7,378,764,"['Adventure', 'Puzzle', 'RPG', 'Strategy', 'Visual Novel']","Spyro Reignited Trilogy is a collection of remasters of the first three games in the Spyro series: Spyro the Dragon (1998), Ripto's Rage! (1999), and Year of the Dragon (2000).","[""a well-meaning but ultimately underwhelming attempt at giving sony a super smash brothers equivalent. Unlike a lot of other criticisms towards the game, I think that the roster isn't exactly the worst. Yeah, theres no crash, spyro, solid snake, or cloud, but they got a lot of other interesting games represented by both characters and stages, which is honestly really cool in the same way getting an unknown thing in smash is. You get to learn a lil bit more about sonys various IPs that you might not have otherwise known, I guess. Gameplaywise though this is definitely not smash brothers. You can only score points and defeat players by using super moves which makes most of the actual fighting kinda feel like irrelevant filler...? The game also lacks the special level of polish and attention to detail that nintendo puts in smash as well, which just makes the overall experience underwhelming. However, I'd still say this is worth at least a curious play, since especially with modern sony being the party poopers that hate fun with the playstations legacy of IPs, we ain't seeing most of the first-party characters in this game ever comin back. It's kinda like nintendo land in like getting that last little table scrap of content for neglected IPs that I enjoy. I'm glad this game came out when it did because if they did this concept again now it'd have the most uninspired roster known to man, mark my words."", 'Playstation All-Stars Battle Royale needs another chance... and maybe this time give us characters actually enjoyable to play as.', 'better than smash because it has isaac clarke', ""Most of the characters in this game are mass murders but they all still get bodied by Sly's first special move."", 'A party game and nothing else of value.', 'no,just no.']",3.3K,281,643,309
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ what are the available games
+
+
+You generated this python code:
+Python
+
+
+def plot_bar_chart(data):
+    plt.barh(range(len(data)), data['Rating'])
+    plt.xlabel('Ratings')
+    plt.ylabel('Games')
+    plt.title('Available Games and Their Ratings')
+    plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+
+
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+plot_bar_chart(df)
+result = {'type': 'dataframe', 'value': pd.DataFrame({'id': [1169], 'Title': ['Advance Wars'], 'Release Date': ['May 05, 2005'], 'Team': [['Microsoft', 'Konami Computer Entertainment Japan']], 'Rating': [3.5], 'Times Listed': [610], 'Number of Reviews': [906]})}
+print(f'Result: {result}')
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-05-25 01:00:22 [INFO] Executing Step 1: CodeGenerator
+2024-05-25 01:00:24 [INFO] Question: what are the available games
+
+2024-05-25 01:00:24 [INFO] Running PandasAI with local LLM...
+2024-05-25 01:00:24 [INFO] Prompt ID: 94e5533b-de40-49ac-963c-6fc0ff98549f
+2024-05-25 01:00:24 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-25 01:00:24 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-25 01:00:24 [INFO] Executing Step 1: CacheLookup
+2024-05-25 01:00:24 [INFO] Using cached response
+2024-05-25 01:00:24 [INFO] Executing Step 2: PromptGeneration
+2024-05-25 01:00:24 [INFO] Executing Step 2: Skipping...
+2024-05-25 01:00:24 [INFO] Executing Step 3: CodeGenerator
+2024-05-25 01:00:24 [INFO] Executing Step 3: Skipping...
+2024-05-25 01:00:24 [INFO] Executing Step 4: CachePopulation
+2024-05-25 01:00:24 [INFO] Executing Step 4: Skipping...
+2024-05-25 01:00:24 [INFO] Executing Step 5: CodeCleaning
+2024-05-25 01:00:24 [INFO] Saving charts to C:\Users\dhanu\Downloads\game_rec-main\exports\charts\temp_chart.png
+2024-05-25 01:00:24 [INFO] 
+Code running:
+```
+Python
+
+
+def plot_bar_chart(data):
+    plt.barh(range(len(data)), data['Rating'])
+    plt.xlabel('Ratings')
+    plt.ylabel('Games')
+    plt.title('Available Games and Their Ratings')
+    plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+
+
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+plot_bar_chart(df)
+result = {'type': 'dataframe', 'value': pd.DataFrame({'id': [1169], 'Title': ['Advance Wars'], 'Release Date': ['May 05, 2005'], 'Team': [['Microsoft', 'Konami Computer Entertainment Japan']], 'Rating': [3.5], 'Times Listed': [610], 'Number of Reviews': [906]})}
+print(f'Result: {result}')
+        ```
+2024-05-25 01:00:24 [INFO] Executing Step 6: CodeExecution
+2024-05-25 01:00:24 [ERROR] Failed with error: Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+2024-05-25 01:00:24 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-05-25 01:00:24 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-05-25 01:00:24 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-05-25 01:00:24 [INFO] Executing Step 1: CodeGenerator
+2024-05-25 01:00:41 [INFO] Question: list out the number of title
+
+2024-05-25 01:00:41 [INFO] Running PandasAI with local LLM...
+2024-05-25 01:00:41 [INFO] Prompt ID: 5d8f9ca8-7292-46f8-9edc-9c747f51a8d6
+2024-05-25 01:00:41 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-25 01:00:41 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-25 01:00:41 [INFO] Executing Step 1: CacheLookup
+2024-05-25 01:00:41 [INFO] Executing Step 2: PromptGeneration
+2024-05-25 01:00:41 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+177,Mirror's Edge,"Sep 18, 2020",,3.5,867,776,"['Adventure', 'Indie', 'Point-and-Click', 'Puzzle', 'RPG']","Introducing a brand-new fantasy x life simulation RPG from Square Enix! Through the changing seasons, explore an imaginative world, tend your crops, make new friends, face enemies in dynamic combat, and unravel the mystery of the season of death, Quietus.","['Das Remake an sich ist echt geil aber Bowser´s Minions fühl ich einfach nicht :/', 'It’s pretty good, though some of the bosses near the end ended up irritating me a bit.', ""Just like the other Mario & Luigi games, this is a fantastic game. I'm a fan of the 3DS art style and the quality of life features so I wanted to play this version over the GBA version. I didn't bother with Bower's Minions since I didn't like Bowser Jr.'s Journey from Bowser's Inside Story on 3DS."", 'Game is just really silly. You can’t hate it', ""C'mon, this game has Popple in it.  Fucking\n                     \n                      Popple\n                     \n                     . Of course it's the best game ever made."", 'Really enjoyable game, though the last boss was a bit of pain to beat.']",992,37,835,1.6K
+725,Life is Strange: True Colors,"Apr 27, 2000","['CyberFront', 'Valve']",,547,320,"['Adventure', 'Puzzle', 'Visual Novel']","The Twin Snakes features graphical improvements over the original, new cutscenes written and directed by Ryuhei Kitamura, and gameplay functions originally introduced in Metal Gear Solid 2: Sons of Liberty. The game also includes a revised translation with re-recorded voice acting using all of the original English voice cast. Hideo Kojima and Shigeru Miyamoto oversaw development of the game. It was also intended to allow the player to play Metal Gear Solid as it was meant to be played","[""Starts out surprisingly fun and addictive at first with an interesting gambling system to determine rank, and to its credit, does a good job at first of hiding how retardedly pay-to-win it is. Then you reach either a high enough rank or high enough collector level and realize if you're not spending $20+ a month, you're not winning games consistently."", ""Still playing it time to time but, as every card game, I got tired. This does not mean that the game is not a blast: it is actually the first card game I've played for so long and with so much enjoyment. Highly recommend"", ""Marvel Snap was the biggest surprise of 2022. I have never been a fan of card game portions of games. Less than 5 hours of my life as Geralt was spent on Gwent, triple triad in FFXIV does nothing for me and I actively despised Joustus in king of cards. I'm also not a big fan of mobile games as they are typically shallow affairs that never hold my attention. So for Marvel snap to be my most played game to release in 2022 and a near ever-present in my daily life, they must have got something right. The key to marvel snap is that its easy to pick up and hard to master. Each card is both a part of marvel's illustrious history and a chess piece that can change the game if used correctly. A game of marvel snap lasts less than 5 minutes so it's easy to justify trying different combination of cards as picking cards with poor synergy will not cost you much. The process of developing  wining decks is as satisfying as learning the ropes in any fighting game. The games various locations that impact each match only add to the complexity as you alter your strategy based on there affects as well as your opponents moves. The snap is a genius mechanic that forces you to either call there bluff or fold like its a high stake poker game.  The ability to upgrade your cards, so they are 3D holographic brings back childhood memories , alongside giving the game a engaging gameplay loop. Upgrading your cards, daily challenges and season challenges keep me coming back day after day.  Not being able to buy unique cards is one of the best decisions the devs ever made and allows me to come back day after day unlocking new cards, getting a holographic card collection my childhood self could only dream of and switching between strategies to keep the game fresh is a wining formula  where the marvel licence is only  the cherry on top of a delicious cake."", ""A card game with simple mechanics. Easy to get into difficult to master. You'll be surprised how many diverse decks you can come up with, with ass simple cards this game offers. Each match takes about 2 minutes or so and every match feels unique enough to keep you engaged in its core gameplay loop."", 'Marvel Snap is a bit like Destiny 2, Apex Legends, and many others in the “game as a service” category: a great game you probably shouldn’t play.\n                     \n                     There is no denying that Marvel Snap is astoundingly great at being a quick and flashy 2-player card battler: card effects are superbly designed, so that almost every cards feels powerful and great to play; decks are exactly 12 cards, so it’s easy to deckbuild, experiment, and try many different strategies; and, at exactly 6 turns, each game is snappy I got used to firing up the matchmaking every time I have to go downstairs to grab a food delivery — and I live in the second story on my building. Win or lose, you’ll play your cards, watch their flashy effects, and have your dopamine hit. It really does feel great.\n                     \n                     Not to mention one of the best parts of the design, the titular snapping mechanic: with one tap, you can stake your progression with a “double or nothing” gamble. No matter if you’re really confident or just bluffing, the other player either needs to call it or concede defeat. This creates tension like a motherfucker.\n                     \n                     So let me get this straight, you’re thinking. Snap looks stunning, is polished to a shine, and feels genuinely great to play. What’s the problem?\n                     \n                     The price.\n                     \n                     By 2023, it’s basically a cliché to say free-to-play games are the most expensive in the market. Everyone knows that. Snap is no different. You will download the game for free, sure, but you will pay — if not with money, than with the bad feeling of playing a lesser game than everyone else, and having to grind more to be less competitive. You’ll always be behind on the new cards, and every game you lose will remind you this problema can be solved with your credit card.\n                     \n                     Just get it, you’ll think. It’s just the price of an indie game per month to keep on top of the Season Passes, you’ll think. It won’t bankrupt me, you’ll think. I don’t even have time to play a new indie game every month to completion. This game brings me fun consistently. I like Marvel heroes! Pretend it’s a subscription! You’ll think all of these things and others to justify continuously spending time on intangible items that would have been unlockable through gameplay if this was a good old regular paid game as god intended.\n                     \n                     And then one day you’ll write a review on Marvel Snap on Letterboxd and, as you write, you’ll realize what an idiot you’ve been to think this was okay. And you will decide, right then and there, while writing the penultimate paragraph, to just uninstall Snap and get a new indie game instead.\n                     \n                     I think I’ll start with Pizza Tower. Yeah. :) I hear great things, and it’s even cheaper than a Snap season pass.\n                     \n                     Now that feels great.\n                     \n                     …\n                     \n                     I once heard that the act of writing is in itself the act of thinking, just a bit slower and more methodical. I can now state with confidence: that tracks.', ""I played this game every day between October 1 and February 7. The gameplay of Snap is excellent, and for a while the treadmill is really enticing—I earned new cards at a pace and in an order that successfully sparked some inspiration in the new combos I could try. When that happened, I could play dozens of games whittling the new deck and strategy down, until I got something new that did the same thing, and so on. As deck variety increases so does strategic complexity, and the game is excellent at getting you time and opportunity to explore its systems; there's not many explicit tutorials, but the card effects are simple and the at your decks grows feels so natural. It must be said the card game itself feels really well-designed and balanced, and for many characters right on theme. I had a great time for a long time.""]",20K,564,480,470
+1327,Animal Crossing: New Horizons,"Mar 03, 2021","['Nordic Games Publishing', 'Double Fine']",3.1,40,207,"['Adventure', 'Fighting']",,"['First and foremost:', 'Maybe happiness was the random people I kissed along the way.\n                     \n                     (Play this game with a guide, trust me)', 'hate that this game is impossible to get my hands on and expensive as hell because i never beat it and i’m mad as hell about it', 'chu', ""I'd give it two stars but I realize i'd absolutely love this game if it weren't for the bad game parts"", ""It's neat but it's the kind of game that is an acquired taste. Just because I didn't enjoy it all that much doesn't stop me from appreciating the merit of its good design and the heart that exists at the center of this game.""]",252,192,503,813
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ list out the number of title
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-25 01:00:41 [INFO] Executing Step 3: CodeGenerator
+2024-05-25 01:03:26 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 01:03:26 [ERROR] Pipeline failed on step 3: No code found in the response
+2024-05-25 01:04:48 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 01:04:48 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+1169,Advance Wars,"May 05, 2005","['Microsoft', 'Konami Computer Entertainment Japan']",3.5,610,906,['Platform'],"He may wear a Rooster Suit, but no one calls him Chicken!
+             
+
+              Billy Hatcher must use the powers of a legendary suit to conquer an evil King who seeks to rule with an everlasting night. Slightly mischievous, yet always cool, only Billy can return the light to the land!","[""It's weird to think that Resident Evil 4 would work, let alone be considered a competing best entry game in the franchise along with REmake. It practically reinvents everything the franchise was known for, removing all signs of survival horror for a more action focused game. Puzzles are few and far between. Linearity is more pronounced now, with things like weapons no longer being found on the map, but bought from a merchant, along with weapon upgrades. The game even lacks zombies of all things, at least in the usual sense. It even adds elements that people just dislike about gaming in general - half the game is essentially an escort mission, and quick time events are everywhere."", ""Played for the first time using the HD project. Looked amazing despite some hiccups here and there. Even though this is one of my favorite games and I have played through it dozens of times over the years, it definitely shows it's age in some areas. Going back to this from the Remake demo really hammers home how bad the AI is in this game and the QTEs get old, especially on the Island. Speaking of, by the time I got here I was ready to be done. Outside of the Regenerators the Island just isn't that interesting compared to what came before and it's repetitive to boot."", 'i guess i technically played this version but yeah this shit is still absolutely sick. one of our best games, cautiously excited for the remake', ""Depois de ter terminado no PS2, Wii, PS3 e Xbox One, finalmente joguei a Ultimate HD Edition (com o mod HD Project que faz o título da versão ter real sentido) e ei, esse jogo ainda é muito, muito bom. Sim, as QTE's com morte instantânea são um produto do seu tempo, e o terço final se estende um tanto mais que o necessário, mas eu sempre fico impressionado com o tanto de ideias que foram encaixadas na jornada de Leon e Ashley."", 'Easily one of the most fun games I have ever played.', ""hot damn what a beautiful game it is, love it to death. graphics, visuals, and gunplay to this day hold up great, and controls are great with the mouse and keyboard don't think they are any good on the controller(didn't try), the story is also good, an amazing freaking game overall, solid 11/10 point extra for Leon cheesy one liners.""]",2.7K,157,801,288
+4,Star Wars: Battlefront,"May 11, 2020","['THQ', ""YUKE'S Co., Ltd.""]",4.2,552,728,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']","The world is in ruins. Only a remnant of mankind remains, hunted to near extinction by horrors from another world. As one of the few survivors left, you will venture into portals to fantastic realms to gather the resources and firepower needed to fight back and retake what was lost.
+             
+
+              Remnant: From the Ashes is a third-person survival-action game set in a post-apocalyptic world overrun by mythical creatures. The game provides players and up to three of their friends with a unique, customizable gameplay experience filled with intense shooting and melee combat, gear and weapon crafting, character progression and dynamically-generated levels that offer an infinite number of ways to explore and take on deadly monsters and epic bosses.","['O primeiro jogo da franquia do Fallout a ser 3D e é bastante divertido. A única coisa que acaba sendo frustrante é os crashes e bugs constantes, mas por ser bastante inovador na época, dá pra perdoar um pouquinho', 'Here we are after the base game + some good amount of sidequests + all DLCs.', 'Fallout: New Vegas, but not as good.', 'Um motivo para sorrir', 'New Vegas is better', 'I understand that it was first person fallout and pretty old to todays standards and its my first fallout game. its pretty creative and a unique game. (now on to new vegas)']",4.8K,874,637,155
+782,Fallout: New Vegas,"Dec 10, 2009",,,229,689,"['Adventure', 'Indie', 'Puzzle', 'RPG']",,"['Mario Party 2 is a perfect sequel. It improves upon everything first attemped in the first Mario Party. It lost a lot of its bullshit factor on the way, but ends up being a lot more consistently fun as a result.', 'a little bit better my hand is not fucking gone this time', ""it's mario party. but again. make sure you bring some other people with you if you want to tackle all this game has to offer; theres no dedicated single player campaign, and doing regular mario party rounds by yourself is really sad and lonely. other than that, this is pretty much mario party 1 again, except with a lot less chance time and palm blisters. If you like physical pain, I think mario party 1 is a better pick than this, but honestly both this and the first are equally worth checking out."", 'RNG bullshit', 'Uma grande evolução em relação ao primeiro jogo, além de ter ótimos minigames e tabuleiros temáticos que mudam a roupa dos personagens!', 'improvment, no holes in my hand']",25K,141,351,537
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ what are the available games
+
+
+You generated this python code:
+Python
+
+
+def plot_bar_chart(data):
+    plt.barh(range(len(data)), data['Rating'])
+    plt.xlabel('Ratings')
+    plt.ylabel('Games')
+    plt.title('Available Games and Their Ratings')
+    plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+
+
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+plot_bar_chart(df)
+result = {'type': 'dataframe', 'value': pd.DataFrame({'id': [1169], 'Title': ['Advance Wars'], 'Release Date': ['May 05, 2005'], 'Team': [['Microsoft', 'Konami Computer Entertainment Japan']], 'Rating': [3.5], 'Times Listed': [610], 'Number of Reviews': [906]})}
+print(f'Result: {result}')
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+            
+2024-05-25 01:04:48 [INFO] Code generated:
+            ```
+            import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assuming df is the DataFrame you have
+for index, row in df.iterrows():
+    print(f"Title: {row['Title']}")
+    print(f"Release Date: {row['Release Date']}")
+    print(f"Team: {', '.join(row['Team'])}")
+    print(f"Rating: {row['Rating']}")
+    print(f"Summary: {row['Summary']}\n")
+
+plt.barh(range(len(df)), df['Rating'])
+plt.xlabel('Ratings')
+plt.ylabel('Games')
+plt.title('Available Games and Their Ratings')
+plt.savefig('temp_chart.png')
+            ```
+            
+2024-05-25 01:04:48 [INFO] Executing Step 2: CodeCleaning
+2024-05-25 01:04:48 [INFO] Saving charts to C:\Users\dhanu\Downloads\game_rec-main\exports\charts\temp_chart.png
+2024-05-25 01:04:48 [INFO] 
+Code running:
+```
+for index, row in df.iterrows():
+    print(f"Title: {row['Title']}")
+    print(f"Release Date: {row['Release Date']}")
+    print(f"Team: {', '.join(row['Team'])}")
+    print(f"Rating: {row['Rating']}")
+    print(f"Summary: {row['Summary']}\n")
+plt.barh(range(len(df)), df['Rating'])
+plt.xlabel('Ratings')
+plt.ylabel('Games')
+plt.title('Available Games and Their Ratings')
+plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+        ```
+2024-05-25 01:04:48 [ERROR] Failed with error: Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+AttributeError: 'NoneType' object has no attribute 'iterrows'
+
+2024-05-25 01:04:48 [WARNING] Failed to execute code retrying with a correction framework [retry number: 2]
+2024-05-25 01:04:48 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-05-25 01:04:48 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-05-25 01:04:48 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+1169,Advance Wars,"May 05, 2005","['Microsoft', 'Konami Computer Entertainment Japan']",3.5,610,906,['Platform'],"He may wear a Rooster Suit, but no one calls him Chicken!
+             
+
+              Billy Hatcher must use the powers of a legendary suit to conquer an evil King who seeks to rule with an everlasting night. Slightly mischievous, yet always cool, only Billy can return the light to the land!","[""It's weird to think that Resident Evil 4 would work, let alone be considered a competing best entry game in the franchise along with REmake. It practically reinvents everything the franchise was known for, removing all signs of survival horror for a more action focused game. Puzzles are few and far between. Linearity is more pronounced now, with things like weapons no longer being found on the map, but bought from a merchant, along with weapon upgrades. The game even lacks zombies of all things, at least in the usual sense. It even adds elements that people just dislike about gaming in general - half the game is essentially an escort mission, and quick time events are everywhere."", ""Played for the first time using the HD project. Looked amazing despite some hiccups here and there. Even though this is one of my favorite games and I have played through it dozens of times over the years, it definitely shows it's age in some areas. Going back to this from the Remake demo really hammers home how bad the AI is in this game and the QTEs get old, especially on the Island. Speaking of, by the time I got here I was ready to be done. Outside of the Regenerators the Island just isn't that interesting compared to what came before and it's repetitive to boot."", 'i guess i technically played this version but yeah this shit is still absolutely sick. one of our best games, cautiously excited for the remake', ""Depois de ter terminado no PS2, Wii, PS3 e Xbox One, finalmente joguei a Ultimate HD Edition (com o mod HD Project que faz o título da versão ter real sentido) e ei, esse jogo ainda é muito, muito bom. Sim, as QTE's com morte instantânea são um produto do seu tempo, e o terço final se estende um tanto mais que o necessário, mas eu sempre fico impressionado com o tanto de ideias que foram encaixadas na jornada de Leon e Ashley."", 'Easily one of the most fun games I have ever played.', ""hot damn what a beautiful game it is, love it to death. graphics, visuals, and gunplay to this day hold up great, and controls are great with the mouse and keyboard don't think they are any good on the controller(didn't try), the story is also good, an amazing freaking game overall, solid 11/10 point extra for Leon cheesy one liners.""]",2.7K,157,801,288
+4,Star Wars: Battlefront,"May 11, 2020","['THQ', ""YUKE'S Co., Ltd.""]",4.2,552,728,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']","The world is in ruins. Only a remnant of mankind remains, hunted to near extinction by horrors from another world. As one of the few survivors left, you will venture into portals to fantastic realms to gather the resources and firepower needed to fight back and retake what was lost.
+             
+
+              Remnant: From the Ashes is a third-person survival-action game set in a post-apocalyptic world overrun by mythical creatures. The game provides players and up to three of their friends with a unique, customizable gameplay experience filled with intense shooting and melee combat, gear and weapon crafting, character progression and dynamically-generated levels that offer an infinite number of ways to explore and take on deadly monsters and epic bosses.","['O primeiro jogo da franquia do Fallout a ser 3D e é bastante divertido. A única coisa que acaba sendo frustrante é os crashes e bugs constantes, mas por ser bastante inovador na época, dá pra perdoar um pouquinho', 'Here we are after the base game + some good amount of sidequests + all DLCs.', 'Fallout: New Vegas, but not as good.', 'Um motivo para sorrir', 'New Vegas is better', 'I understand that it was first person fallout and pretty old to todays standards and its my first fallout game. its pretty creative and a unique game. (now on to new vegas)']",4.8K,874,637,155
+782,Fallout: New Vegas,"Dec 10, 2009",,,229,689,"['Adventure', 'Indie', 'Puzzle', 'RPG']",,"['Mario Party 2 is a perfect sequel. It improves upon everything first attemped in the first Mario Party. It lost a lot of its bullshit factor on the way, but ends up being a lot more consistently fun as a result.', 'a little bit better my hand is not fucking gone this time', ""it's mario party. but again. make sure you bring some other people with you if you want to tackle all this game has to offer; theres no dedicated single player campaign, and doing regular mario party rounds by yourself is really sad and lonely. other than that, this is pretty much mario party 1 again, except with a lot less chance time and palm blisters. If you like physical pain, I think mario party 1 is a better pick than this, but honestly both this and the first are equally worth checking out."", 'RNG bullshit', 'Uma grande evolução em relação ao primeiro jogo, além de ter ótimos minigames e tabuleiros temáticos que mudam a roupa dos personagens!', 'improvment, no holes in my hand']",25K,141,351,537
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ what are the available games
+
+
+You generated this python code:
+for index, row in df.iterrows():
+    print(f"Title: {row['Title']}")
+    print(f"Release Date: {row['Release Date']}")
+    print(f"Team: {', '.join(row['Team'])}")
+    print(f"Rating: {row['Rating']}")
+    print(f"Summary: {row['Summary']}\n")
+plt.barh(range(len(df)), df['Rating'])
+plt.xlabel('Ratings')
+plt.ylabel('Games')
+plt.title('Available Games and Their Ratings')
+plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+AttributeError: 'NoneType' object has no attribute 'iterrows'
+
+
+Fix the python code above and return the new python code:
+2024-05-25 01:04:48 [INFO] Executing Step 1: CodeGenerator
+2024-05-25 01:06:04 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 01:06:04 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+607,Castlevania III: Dracula's Curse,"Apr 30, 2014","['Gaijin Games', 'Aksys Games']",1.6,140,653,"['Adventure', 'Arcade', 'Fighting', 'Indie']","The Legend of Zelda: Breath of the Wild is the first 3D open-world game in the Zelda series. Link can travel anywhere and be equipped with weapons and armor found throughout the world to grant him various bonuses. Unlike many games in the series, Breath of the Wild does not impose a specific order in which quests or dungeons must be completed. While the game still has environmental obstacles such as weather effects, inhospitable lands, or powerful enemies, many of them can be overcome using the right method. A lot of critics ranked Breath of the Wild as one of the best video games of all time.","['Great but I hate the cheap one hit kill QTEs. Very pronounced lack of enemy variety that gets amended in later titles in the series', ""Beat'em all at its best, with weird and frankly off putting enemy design."", 'I know this is really good but every time I see a combo list in a video game my head fills with static', 'at this point i lost the count of how many times i played this game', 'eu te amo hideki kamiya', 'https://www.amazon.com/gp/product/B08RMCZJ9K?psc=1']",7K,600,132,138
+547,Metroid Fusion,"Nov 09, 2022","['Namco Bandai Games', 'Monolith Soft']",,414,2.1K,"['Adventure', 'Indie', 'Puzzle', 'Shooter']",,"[""I haven't played this game since I was a kid, but I loved it when I was a kid, and I remember playing the demo on the school bus and challenging my pokemon bus friends to play it. Good times, good times. Would recommend, especially to fans of the series."", 'Bom', 'Les bons bail avec le frÃ©rot', 'posiblemente de los mejores si no el mejor juego graficamente en la consola pero entre que la historia no tiene ningun sentido y que el gameplay se va a pique luego de como 2 horas ðŸ˜¬ðŸ˜¬ðŸ˜¬ðŸ˜¬ðŸ˜¬', 'cool ambience, no puzzles tho', 'Capcom\n                     \n                     Jill Valentine']",5.9K,866,252,188
+1125,Red Dead Redemption,"Sep 02, 1994",,2.7,378,764,"['Adventure', 'Puzzle', 'RPG', 'Strategy', 'Visual Novel']","Spyro Reignited Trilogy is a collection of remasters of the first three games in the Spyro series: Spyro the Dragon (1998), Ripto's Rage! (1999), and Year of the Dragon (2000).","[""a well-meaning but ultimately underwhelming attempt at giving sony a super smash brothers equivalent. Unlike a lot of other criticisms towards the game, I think that the roster isn't exactly the worst. Yeah, theres no crash, spyro, solid snake, or cloud, but they got a lot of other interesting games represented by both characters and stages, which is honestly really cool in the same way getting an unknown thing in smash is. You get to learn a lil bit more about sonys various IPs that you might not have otherwise known, I guess. Gameplaywise though this is definitely not smash brothers. You can only score points and defeat players by using super moves which makes most of the actual fighting kinda feel like irrelevant filler...? The game also lacks the special level of polish and attention to detail that nintendo puts in smash as well, which just makes the overall experience underwhelming. However, I'd still say this is worth at least a curious play, since especially with modern sony being the party poopers that hate fun with the playstations legacy of IPs, we ain't seeing most of the first-party characters in this game ever comin back. It's kinda like nintendo land in like getting that last little table scrap of content for neglected IPs that I enjoy. I'm glad this game came out when it did because if they did this concept again now it'd have the most uninspired roster known to man, mark my words."", 'Playstation All-Stars Battle Royale needs another chance... and maybe this time give us characters actually enjoyable to play as.', 'better than smash because it has isaac clarke', ""Most of the characters in this game are mass murders but they all still get bodied by Sly's first special move."", 'A party game and nothing else of value.', 'no,just no.']",3.3K,281,643,309
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ what are the available games
+
+
+You generated this python code:
+Python
+
+
+def plot_bar_chart(data):
+    plt.barh(range(len(data)), data['Rating'])
+    plt.xlabel('Ratings')
+    plt.ylabel('Games')
+    plt.title('Available Games and Their Ratings')
+    plt.savefig('C:/Users/dhanu/Downloads/game_rec-main/exports/charts/temp_chart.png')
+
+
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+plot_bar_chart(df)
+result = {'type': 'dataframe', 'value': pd.DataFrame({'id': [1169], 'Title': ['Advance Wars'], 'Release Date': ['May 05, 2005'], 'Team': [['Microsoft', 'Konami Computer Entertainment Japan']], 'Rating': [3.5], 'Times Listed': [610], 'Number of Reviews': [906]})}
+print(f'Result: {result}')
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+            
+2024-05-25 01:06:04 [INFO] Code generated:
+            ```
+            Python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+dfs = ...  # your dataframe(s) here
+
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {' , '.join(df['Team'].values[0]) if type(df['Team'].values[0]) == list else df['Team'].values[0]}")  # Join team names if they are in a list
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+
+# Your original code was trying to create a bar chart, but I'm not sure what you're trying to plot as the x and y values. If you could provide more information about that, I can help with the plotting.
+            ```
+            
+2024-05-25 01:06:04 [INFO] Executing Step 2: CodeCleaning
+2024-05-25 01:06:04 [INFO] 
+Code running:
+```
+Python
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {' , '.join(df['Team'].values[0]) if type(df['Team'].values[0]) == list else df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+        ```
+2024-05-25 01:06:04 [ERROR] Failed with error: Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+2024-05-25 01:06:04 [WARNING] Failed to execute code retrying with a correction framework [retry number: 2]
+2024-05-25 01:06:04 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-05-25 01:06:04 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-05-25 01:06:04 [INFO] Using prompt: <dataframe>
+dfs[0]:1512x14
+id,Title,Release Date,Team,Rating,Times Listed,Number of Reviews,Genres,Summary,Reviews,Plays,Playing,Backlogs,Wishlist
+607,Castlevania III: Dracula's Curse,"Apr 30, 2014","['Gaijin Games', 'Aksys Games']",1.6,140,653,"['Adventure', 'Arcade', 'Fighting', 'Indie']","The Legend of Zelda: Breath of the Wild is the first 3D open-world game in the Zelda series. Link can travel anywhere and be equipped with weapons and armor found throughout the world to grant him various bonuses. Unlike many games in the series, Breath of the Wild does not impose a specific order in which quests or dungeons must be completed. While the game still has environmental obstacles such as weather effects, inhospitable lands, or powerful enemies, many of them can be overcome using the right method. A lot of critics ranked Breath of the Wild as one of the best video games of all time.","['Great but I hate the cheap one hit kill QTEs. Very pronounced lack of enemy variety that gets amended in later titles in the series', ""Beat'em all at its best, with weird and frankly off putting enemy design."", 'I know this is really good but every time I see a combo list in a video game my head fills with static', 'at this point i lost the count of how many times i played this game', 'eu te amo hideki kamiya', 'https://www.amazon.com/gp/product/B08RMCZJ9K?psc=1']",7K,600,132,138
+547,Metroid Fusion,"Nov 09, 2022","['Namco Bandai Games', 'Monolith Soft']",,414,2.1K,"['Adventure', 'Indie', 'Puzzle', 'Shooter']",,"[""I haven't played this game since I was a kid, but I loved it when I was a kid, and I remember playing the demo on the school bus and challenging my pokemon bus friends to play it. Good times, good times. Would recommend, especially to fans of the series."", 'Bom', 'Les bons bail avec le frÃ©rot', 'posiblemente de los mejores si no el mejor juego graficamente en la consola pero entre que la historia no tiene ningun sentido y que el gameplay se va a pique luego de como 2 horas ðŸ˜¬ðŸ˜¬ðŸ˜¬ðŸ˜¬ðŸ˜¬', 'cool ambience, no puzzles tho', 'Capcom\n                     \n                     Jill Valentine']",5.9K,866,252,188
+1125,Red Dead Redemption,"Sep 02, 1994",,2.7,378,764,"['Adventure', 'Puzzle', 'RPG', 'Strategy', 'Visual Novel']","Spyro Reignited Trilogy is a collection of remasters of the first three games in the Spyro series: Spyro the Dragon (1998), Ripto's Rage! (1999), and Year of the Dragon (2000).","[""a well-meaning but ultimately underwhelming attempt at giving sony a super smash brothers equivalent. Unlike a lot of other criticisms towards the game, I think that the roster isn't exactly the worst. Yeah, theres no crash, spyro, solid snake, or cloud, but they got a lot of other interesting games represented by both characters and stages, which is honestly really cool in the same way getting an unknown thing in smash is. You get to learn a lil bit more about sonys various IPs that you might not have otherwise known, I guess. Gameplaywise though this is definitely not smash brothers. You can only score points and defeat players by using super moves which makes most of the actual fighting kinda feel like irrelevant filler...? The game also lacks the special level of polish and attention to detail that nintendo puts in smash as well, which just makes the overall experience underwhelming. However, I'd still say this is worth at least a curious play, since especially with modern sony being the party poopers that hate fun with the playstations legacy of IPs, we ain't seeing most of the first-party characters in this game ever comin back. It's kinda like nintendo land in like getting that last little table scrap of content for neglected IPs that I enjoy. I'm glad this game came out when it did because if they did this concept again now it'd have the most uninspired roster known to man, mark my words."", 'Playstation All-Stars Battle Royale needs another chance... and maybe this time give us characters actually enjoyable to play as.', 'better than smash because it has isaac clarke', ""Most of the characters in this game are mass murders but they all still get bodied by Sly's first special move."", 'A party game and nothing else of value.', 'no,just no.']",3.3K,281,643,309
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ what are the available games
+
+
+You generated this python code:
+Python
+for df in dfs:
+    print(f"Title: {df['Title'].values[0]}")
+    print(f"Release Date: {df['Release Date'].values[0]}")
+    print(f"Team: {' , '.join(df['Team'].values[0]) if type(df['Team'].values[0]) == list else df['Team'].values[0]}")
+    print(f"Rating: {df['Rating'].values[0]}")
+    print(f"Summary: {df['Summary'].values[0]}\n")
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\dhanu\.conda\envs\llm\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-05-25 01:06:04 [INFO] Executing Step 1: CodeGenerator
+2024-05-25 01:07:25 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-25 01:07:25 [ERROR] Pipeline failed on step 1: No code found in the response
+2024-05-25 01:07:25 [ERROR] Pipeline failed on step 6: No code found in the response
